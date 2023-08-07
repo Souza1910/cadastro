@@ -151,7 +151,7 @@
     justify-content:center;
   }
   .card{
-    margin:0 30px;
+    margin:0 70px;
     height:500px;
     width:250px;
     background-color:#435055;
@@ -221,7 +221,7 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    border:5px solid black;
+    
     border-right:none;
     border-bottom:none;
     padding:10px 20px;
@@ -244,8 +244,8 @@
     margin-left:-30px;
   }
   #spiderman h3{
-    font-size:3rem;
-    letter-spacing:15px;
+    font-size: 2rem;
+    letter-spacing:8px;
     text-align:center;
     margin-left:10px;
     color:#2E5579;
@@ -269,8 +269,8 @@
     display:flex;
   }
   #spiderman>.card-text>div>div:last-child>span:first-child{
-    font-size:5rem;
-    font-weight:800;
+    font-size:2rem;
+    font-weight:600;
       line-height:60px;
   }
   
@@ -280,7 +280,7 @@
   }
   #deadpool>.card-image{
     height:calc(80% - 5px);
-    background-color:#A01F29;
+    background-color:#065f04;
     border-top:5px solid black;
     display:flex;
     justify-content:center;
@@ -288,27 +288,27 @@
   
   }
   #deadpool img{
-    height:90%;
+    height:80%;
   }
   #deadpool>.card-text{
     display:flex;
     justify-content:center;
-    height:20%;
+    height:50%;
   }
   #deadpool>.card-text>div{
     width:100%;
   }
-  #deadpool>.card-text>div:last-child{
-    border-left:3px solid black;
-  }
+ 
   #deadpool>.card-text>div:first-child{
     display:flex;
     justify-content:center;
     align-items:center;
   }
   #deadpool>.card-text>div:first-child>span:first-child{
-    font-size:4rem;
-    font-weight:800;
+    font-size:1.5rem;
+    font-weight:400;
+    margin: 15px;
+ 
   }
   #deadpool>.card-text>div:first-child>span:last-child{
     font-size:1.5rem;
@@ -321,17 +321,16 @@
     align-items:center;
   }
   #deadpool>.card-text>div:last-child>span:first-child{
-    font-size: 3rem;
-     font-weight: 600;
+    font-size: 2rem;
+     font-weight: 500;
       margin-bottom:3px;
+      color: #065f04;
   }
-  #deadpool>.card-text>div:last-child>span:nth-of-type(2){
-    font-size:1.3rem;
-    font-weight:500;
-  }
+  
   #deadpool>.card-text>div:last-child>span:last-child{
-    font-size:1.2rem;
+    font-size:1.5rem;
     margin-bottom:10px;
+    font-weight: 600;
   }
   #deadpool>.card-image p{
     position:absolute;
